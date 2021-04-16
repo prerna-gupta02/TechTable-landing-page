@@ -17,7 +17,7 @@ i{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
-    height: 90vh;
+    height: 100vh;
 }
 .navbar{
     padding: 0 80px;
@@ -240,7 +240,16 @@ footer p{
     margin-right: 10px;
     border-radius: 4px;
 }
-.sci li a:hover{
+footer .sci li a.icon1:hover{
+    background-color: rgb(49, 45, 238);
+}
+footer .sci li a.icon2:hover{
+    background-color: rgb(62, 213, 240);
+}
+footer .sci li a.icon3:hover{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+}
+footer .sci li a.icon4:hover{
     background-color: #f00;
 }
 .sci li a .fa{
@@ -329,6 +338,9 @@ footer .contact{
         font-size: 15px;
         padding: 8px 20px;
     }
+    .programs .card{
+        margin: 0 30px;
+    }
     .programs .card .apply-btn{
         margin-left: -3%;
         width: 106%;
@@ -380,15 +392,29 @@ footer .contact{
         margin-left: 10px;
     }
 }
-@media screen  and (max-width:408px){
+@media screen  and (max-width:460px){
+    .programs .card .apply-btn{
+        margin-left: -2.5%;
+        width: 105%;
+    }
+}
+@media screen  and (max-width:396px){
     .testimonials .card{
         margin-left: -1px;
         margin-right: -1px;
     }
+    .programs .card .apply-btn{
+        margin-left: -3%;
+        width: 106%;
+    }
 }
-@media screen and (max-width: 323px){
+@media screen and (max-width: 330px){
     .header .navbar-brand img{
         height: 50px;
         width: 110px;
+    }
+    .programs .card .apply-btn{
+        margin-left: -4%;
+        width: 108%;
     }
 }
