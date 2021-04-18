@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Caveat&family=Kalam:wght@300&family=Shadows+Into+Light&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kaushan+Script&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 
 
 
@@ -138,7 +139,7 @@ i{
 }
 .mentor-form label, .mentor-form legend{
     color: darkblue;
-    font-family: 'Comic Sans MS', cursive;
+    font-family: 'Acme', sans serif;
     font-style: italic;
     font-size: 16px;
 }
