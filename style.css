@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kaushan+Script&family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
 
 
 
@@ -55,7 +56,7 @@ i{
     margin: 70px;
 }
 .header .content h2{
-    font-family: 'Marck Script', cursive;
+    font-family: 'Roboto', cursive;
     font-size: 45px;
     font-weight: 600;
 }
