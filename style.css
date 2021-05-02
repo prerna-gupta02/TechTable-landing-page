@@ -81,7 +81,7 @@ i{
     transform: translateY(2px);
 }
 .programs .heading h1, .testimonials .heading h1, .mentor-form .heading h1{
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Comic Sans MS', cursive;
     color: red;
 }
 .programs .row{
