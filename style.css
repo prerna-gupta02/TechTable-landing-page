@@ -82,7 +82,7 @@ i{
     transform: translateY(2px);
 }
 .programs .heading h1, .testimonials .heading h1, .mentor-form .heading h1{
-    font-family: 'Comic Sans MS', cursive;
+    font-style: italic; 
     color: red;
 }
 .programs .row{
