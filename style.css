@@ -147,6 +147,7 @@ i{
 }
 .testimonials{
     margin-top: 40px;
+    padding: 0 50px;
 }
 .testimonials .card{
     border-radius: 20px;
@@ -200,6 +201,12 @@ i{
 }
 .testimonials:hover .card:not(:hover){
     transform: scale(0.9);
+}
+.testimonials .carousel .carousel-indicators{
+    bottom: -45px;
+}
+.testimonials .carousel .carousel-indicators li{
+    background-color: #000;
 }
 footer{
     position: relative;
@@ -351,6 +358,16 @@ footer .contact{
     .testimonials:hover .card:not(:hover){
         transform: scale(0.9);
     }
+    .testimonials .card .card-body p{
+        margin: auto -25px;
+    }
+    .testimonials .card-header .card-body p::before{
+        left: -2.5rem;
+    }
+    .testimonials .card-header .card-body p::after{
+        bottom: -5.5rem;
+        right: -3rem;
+    }
     footer{
         padding: 40px;
     }
@@ -368,10 +385,49 @@ footer .contact{
         padding: 8px 40px;
     }
 }
+@media screen and (max-width: 888px){
+    .testimonials .card-header .card-body p::before{
+        left: -2.8rem;
+    }
+    .testimonials .card-header .card-body p::after{
+        right: -1rem;
+    }
+}
 @media screen and (max-width: 768px){
     .programs .card .apply-btn{
         margin-left: -2%;
         width: 104%;
+    }
+    .testimonials .card{
+        margin: 0 50px;
+    }
+    .testimonials .card .card-body p{
+        margin: auto;
+    }
+    .testimonials .card-header .card-body p::before{
+        left: -1rem;
+    }
+    .testimonials .card-header .card-body p::after{
+        bottom: -5.5rem;
+        right: 2rem;
+    }
+}
+@media screen and (max-width: 729px){
+    .testimonials .card-header .card-body p::before{
+        left: -1.2rem;
+    }
+    .testimonials .card-header .card-body p::after{
+        bottom: -5.5rem;
+        right: -1rem;
+    }
+}
+@media screen and (max-width: 682px){
+    .testimonials .card-header .card-body p::before{
+        left: -1.2rem;
+    }
+    .testimonials .card-header .card-body p::after{
+        bottom: -5.5rem;
+        right: -1rem;
     }
 }
 @media screen and (max-width: 576px){
