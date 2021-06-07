@@ -208,6 +208,9 @@ i{
 .testimonials .carousel .carousel-indicators li{
     background-color: #000;
 }
+svg{
+    fill: #111 !important;
+}
 footer{
     position: relative;
     width: 100%;
