@@ -210,6 +210,7 @@ i{
 }
 svg{
     fill: #111 !important;
+    margin: 0;
 }
 footer{
     position: relative;
